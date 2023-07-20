@@ -6,7 +6,7 @@ Servo myservo;
 #define ldr2 A1 // set ldr 2 Analog input pin of West ldr as an integer
 
 int pos = 90; // initial position of the Horizontal movement controlling servo motor
-int tolerance = 20; // allowable tolerance setting - so solar servo motor isn't constantly in motion
+int tolerance = 20; // allowable tolerance setting - so solar servo motor isn't constantly in motion..
    
 void setup(){
 myservo.attach(2); // attaches the servo on digital pin 2 to the horizontal movement servo motor 
